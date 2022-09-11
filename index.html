@@ -1,102 +1,98 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-        Casdastro Gamer/
-    </title>
+    <title>Casdastro Gamer/</title>
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
     <link rel="stylesheet" href="app.css">
 </head>
-</div>
-<a href="https://github.com/offmak" target="_blank">
-  <img src="img/mak2.png" alt="" class="alura-logo">
-  <img src="https://www.alura.com.br/assets/img/artigos/icon-terminal.1647533642.svg" alt="" class="logo">
-</a>
 
-<a href="#" target="_blank">
-  <img src="https://www.alura.com.br/assets/img/artigos/icon-terminal.1647533642.svg" alt="" class="logo">
-</a>
+
 
 <body>
-   
-           <!------Nav bar------>
-    <div class="login-box">
-        <h2>Crie sua conta</h2>
-        <form>
-          <div class="user-box">
-            <input type="text" name="" required="">
-            <label>Seu E-mail</label>
-          </div>
-          <div class="user-box">
-            <input type="Seu nome" name="" required="">
-            <label>Seu nome</label>
-          </div>
-          <div class="user-box">
-            <input type="Sua senha" name="" required="">
-            <label>Sua senha</label>
-          </div>
-          <div class="user-box">
-            <input type="Confirme sua senha" name="" required="">
-            <label>Confirme sua senha</label>
-          </div>
+
+    <header>
+        <a href="https://github.com/offmak" target="_blank">
+        <img src="https://offmak.github.io/Cadastro-creator-maka/img/mak2.png" alt="" class="alura-logo">
+        <img src="https://www.alura.com.br/assets/img/artigos/icon-terminal.1647533642.svg" alt="" class="logo">
+    </a>
+    <a href="#" target="_blank"><img src="https://www.alura.com.br/assets/img/artigos/icon-terminal.1647533642.svg" alt="" class="logo"></a>
+    </header>
+
+
+    <div class="container">
+
+        <ul class="nav">
+            <span class="nav-indicator"></span>
+            <li>
+                <a href="#">
+                    <i class='bx bx-home'></i>
+                    <span class="title">Home</span>
+                </a>
+            </li>
     
-          <a href="#">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            CRIAR
-          </a>
-        </form>
-      </div>
-
-    <ul class="nav">
-        <span class="nav-indicator"></span>
-        <li>
-            <a href="#">
-                <i class='bx bx-home'></i>
-                <span class="title">Home</span>
-            </a>
-        </li>
-      
-        <li>
-          <a href="#">
-              <i class='bx bx-code-alt'></i>
-              <span class="title">Dev</span>
-          </a>
-      </li>
-      
-        <li>
-            <a href="#">
-                <i class='bx bx-user'></i>
-                <span class="title">Conta</span>
-            </a>
-        </li>
-    </ul>
-                    <!---Social Media-->
-    <div class="social_media">
-        <a href="#"><i class="bx bxl-facebook"></i></a>
-        <a href="#"><i class="bx bxl-twitter"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="bx bxl-discord"></i></a>
-    </div>
+            <li>
+                <a href="#">
+                    <i class='bx bx-code-alt'></i>
+                    <span class="title">Dev</span>
+                </a>
+            </li>
     
+            <li>
+                <a href="#">
+                    <i class='bx bx-user'></i>
+                    <span class="title">Conta</span>
+                </a>
+            </li>
+        </ul>
+    
+        <!------Nav bar------>
+        <div class="login-box">
+            <h2>Crie sua conta</h2>
+            <form>
+                <div class="user-box">
+                    <input type="email" name="email" required="">
+                    <label>Seu E-mail</label>
+                </div>
+                <div class="user-box">
+                    <input type="name" name="usuario" required="">
+                    <label>Seu nome</label>
+                </div>
+                <div class="user-box">
+                    <input type="password" name="senha" required="">
+                    <label>Sua senha</label>
+                </div>
+                <div class="user-box">
+                    <input type="password" name="" required="">
+                    <label>Confirme sua senha</label>
+                </div>
+    
+                <a href="#" onclick="teucu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    CRIAR
+                </a>
+                
+                <input class="botao" type="submit">
+                
+                
+            </form> 
+            
+            <div class="social_media">
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="bx bxl-discord"></i></a>
+            </div>
+        </div>
 
-    <!-- https://css-tricks.com/gooey-effect/ -->
 
-    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="filter-svg">
-        <defs>
-            <filter id="goo">
-                <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
-                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
-                <feBlend in="SourceGraphic" in2="goo" />
-            </filter>
-        </defs>
-    </svg>
 
     <script src="app.js"></script>
 </body>

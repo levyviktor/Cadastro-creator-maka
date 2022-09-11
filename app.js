@@ -1,4 +1,7 @@
 let nav = document.querySelector('.nav')
+function teucu(){
+    document.getElementsByClassName("botao")[0].click();
+ }
 
 nav.querySelectorAll('li a').forEach((a, i) => {
     a.onclick = (e) => {
